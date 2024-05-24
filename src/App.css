@@ -1,0 +1,273 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#bgImage{
+  color: #333;
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  padding-top: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.dark {
+  background-image: url('./img/bg-dark.jpg') !important;
+}
+
+.light{
+  background-image: url('./img/bg-light.jpg') !important;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0px auto 300px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  overflow-y: auto;
+  max-height: 90vh;
+  padding: 20px;
+}
+
+#light{
+  background-color: #efefef;
+  color: #333;
+}
+
+#dark{
+  background-color: #000000;
+  color: #FFF;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#light button {
+  background-color: #333974;
+  color: #fff;
+}
+
+#dark button {
+  background-color: #232d8e;
+  color: #fff;
+}
+
+#dark button:hover {
+  box-shadow: 0 0 0 2px white, 0 0 0 3px;
+}
+
+#light button:hover {
+  box-shadow: 0 0 0 2px black, 0 0 0 3px;
+}
+
+.add {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 10px 0px 0px 550px;
+  color: #000000 !important;
+}
+
+#light .add {
+  background-color: #ad47ac !important;
+}
+
+#dark .add {
+  background-color: #a03a9f !important;
+}
+
+.todo-list {
+  border-bottom: 1px solid, #555;
+}
+
+.todo {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#light .todo {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#dark .todo {
+  background-color: #232323;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+#light .complete {
+  background-color: #5cb85c;
+}
+
+#dark .complete {
+  background-color: #389238;
+}
+
+#light .remove {
+  background-color: #d9534f;
+}
+
+#dark .remove {
+  background-color: #c21a14;
+}
+
+#light .todo-form {
+  background-color: #efefef;
+  color: #333;
+}
+
+#dark .todo-form {
+  background-color: #232323;
+  color: #FFF;
+}
+
+.todo-form button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+#dark .todo-form input {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #4d4d4d;
+  border-radius: 3px;
+  width: 100%;
+  background-color: #232323;
+  color: #fff;
+}
+
+#dark .todo-form #btnAddTodo {
+  background-color: #389238;
+}
+
+#light .todo-form input {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 100%;
+  color: #232323;
+  background-color: #fff;
+}
+
+#light .todo-form #btnAddTodo {
+  background-color: #5cb85c;
+}
+
+#light input {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 100%;
+  color: #232323;
+  background-color: #fff;
+}
+
+#light select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 100%;
+  color: #232323;
+  background-color: #fff;
+}
+
+#dark input,
+select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #4d4d4d;
+  border-radius: 3px;
+  width: 100%;
+  background-color: #232323;
+  color: #fff;
+}
+
+.filter,
+.search {
+  border-bottom: 1px solid #555;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+
+}
+
+.filter-optons {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.filter-optons div {
+  flex: 1 1 0;
+}
+
+.switch {
+  margin-top: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+#imgCompleted{
+  width: 20px;
+  height: 20px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+.children{
+  margin: 10px;
+}
+
+.container #titleTodo{
+  font-size: 20px;
+  font-style: oblique;
+}
+
+.container #categoryTodo{
+  font-size: 13px;
+  font-style: oblique;
+}
